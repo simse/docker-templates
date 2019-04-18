@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/airsonic.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Tools:</Category>
+  <Name>chronos</Name>
+  <Description>
+    Chronos is a small container to run and schedule Python 3.7 scripts. All with a sleek UI.
+  </Description>
+  <Support>https://simse.io</Support>
+  <Registry>https://hub.docker.com/r/simsemand/chronos</Registry>
+  <GitHub>https://github.com/simse/chronos</GitHub>
+  <Repository>simse/chronos</Repository>
+  <Project>https://github.com/simse/chronos</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/chronos</HostDir>
+      <ContainerDir>/chronos</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <Icon>https://i.imgur.com/MoAbdWn.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
