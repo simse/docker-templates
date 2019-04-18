@@ -10,7 +10,7 @@
   <Support>https://simse.io</Support>
   <Registry>https://hub.docker.com/r/simsemand/chronos</Registry>
   <GitHub>https://github.com/simse/chronos</GitHub>
-  <Repository>simse/chronos</Repository>
+  <Repository>simsemand/chronos</Repository>
   <Project>https://github.com/simse/chronos</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
