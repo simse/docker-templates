@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/airsonic.xml</TemplateURL>
+  <TemplateURL>https://github.com/simse/docker-templates/raw/master/simse/chronos.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Tools:</Category>
   <Name>chronos</Name>
